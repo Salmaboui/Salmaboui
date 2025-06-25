@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="cv.xslt" type="text/xsl" ?>
+<cv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cv.xsd">
+  <me>
+    <name lang="fr">Salma Bouirdi</name>
+    <name lang="en">Salma Bouirdi</name>
+    <name lang="ar">سلمى بويردي</name>
+    <email>
+      <label lang="fr">Email</label>
+      <label lang="en">Email</label>
+      <label lang="ar">البريد الإلكتروني</label>
+      <address>salmabouirdi931@gmail.com</address>
+    </email>
+    <description lang="fr">
+      Dernière année d'ingénierie informatique à Sup Galilée - Sorbonne Paris Nord. Alternante Business Analyst. Intéressée par l'analyse de données, l'IA et les projets à impact.
+    </description>
+    <description lang="en">
+      Final year computer engineering student at Sup Galilée - Sorbonne Paris Nord. Apprentice Business Analyst. Passionate about data analysis, AI and impactful projects.
+    </description>
+    <description lang="ar">
+      طالبة في السنة الأخيرة في هندسة المعلومات بمدرسة Sup Galilée - جامعة السوربون باريس نورد. متدربة محللة أعمال. مهتمة بتحليل البيانات والذكاء الاصطناعي والمشاريع ذات الأثر.
+    </description>
+  </me>
+
+  <education>
+    <title lang="fr">Éducation</title>
+    <title lang="en">Education</title>
+    <title lang="ar">التعليم</title>
+    <qualification>
+      <establishment lang="fr">Sup Galilée - Sorbonne Paris Nord</establishment>
+      <establishment lang="en">Sup Galilée - Sorbonne Paris Nord</establishment>
+      <establishment lang="ar">سوب غاليلي - جامعة السوربون باريس نورد</establishment>
+      <type lang="fr">Cycle d'ingénieur en informatique</type>
+      <type lang="en">Computer Engineering Degree</type>
+      <type lang="ar">دورة مهندس في المعلومات</type>
+      <from>2023</from>
+      <to>2026</to>
+      <description lang="fr">Formation d'ingénieur en informatique en alternance</description>
+      <description lang="en">Computer engineering program with a work-study format</description>
+      <description lang="ar">تكوين مهندس معلومات بنظام التناوب</description>
+    </qualification>
+    <qualification>
+      <establishment lang="fr">CPGE Lycée préparatoire scientifique</establishment>
+      <establishment lang="en">CPGE Scientific Preparatory School</establishment>
+      <establishment lang="ar">أقسام تحضيرية علمية</establishment>
+      <type lang="fr">Classes préparatoires MPSI-MP</type>
+      <type lang="en">Preparatory Classes MPSI-MP</type>
+      <type lang="ar">أقسام تحضيرية رياضيات وفيزياء</type>
+      <from>2021</from>
+      <to>2023</to>
+      <description lang="fr">Mathématiques, Physique et Sciences de l'ingénieur</description>
+      <description lang="en">Mathematics, Physics, and Engineering Sciences</description>
+      <description lang="ar">الرياضيات والفيزياء وعلوم المهندس</description>
+    </qualification>
+    <qualification>
+      <establishment lang="fr">Lycée</establishment>
+      <establishment lang="en">High School</establishment>
+      <establishment lang="ar">الثانوية</establishment>
+      <type lang="fr">Baccalauréat</type>
+      <type lang="en">Baccalaureate</type>
+      <type lang="ar">البكالوريا</type>
+      <from>2020</from>
+      <to>2021</to>
+      <description lang="fr">Baccalauréat Sciences Mathématiques - Mention très bien</description>
+      <description lang="en">Baccalaureate in Mathematical Sciences - With honors</description>
+      <description lang="ar">البكالوريا في العلوم الرياضية - بميزة حسن جداً</description>
+    </qualification>
+  </education>
+
+  <employment>
+    <title lang="fr">Expérience Professionnelle</title>
+    <title lang="en">Professional Experience</title>
+    <title lang="ar">الخبرات المهنية</title>
+    <experience>
+      <establishment lang="fr">Telecoop</establishment>
+      <establishment lang="en">Telecoop</establishment>
+      <establishment lang="ar">تيليكوب</establishment>
+      <job_title lang="fr">Alternante Business Analyst</job_title>
+      <job_title lang="en">Apprentice Business Analyst</job_title>
+      <job_title lang="ar">متدربة كمحللة أعمال</job_title>
+      <from>2024</from>
+      <to>Présent</to>
+      <description lang="fr">Recueil de besoins, tests fonctionnels, gestion de tickets GitLab, déploiement GitHub, conception CMS Kirby.</description>
+      <description lang="en">Requirements gathering, functional testing, GitLab ticket management, GitHub deployment, CMS Kirby design.</description>
+      <description lang="ar">جمع المتطلبات، اختبارات وظيفية، إدارة التذاكر على GitLab، النشر على GitHub، تصميم CMS Kirby.</description>
+    </experience>
+  </employment>
+
+  <projects>
+    <title lang="fr">Projets</title>
+    <title lang="en">Projects</title>
+    <title lang="ar">المشاريع</title>
+    <project>
+      <name lang="fr">Gestion des trains en circulation</name>
+      <name lang="en">Train Traffic Management</name>
+      <name lang="ar">إدارة القطارات في الخدمة</name>
+      <description lang="fr">Simulateur ferroviaire interactif avec HTML/CSS/JavaScript/JQuery (2024).</description>
+      <description lang="en">Interactive railway simulator using HTML/CSS/JavaScript/JQuery (2024).</description>
+      <description lang="ar">محاكي تفاعلي للسكك الحديدية باستخدام HTML/CSS/JavaScript/JQuery (2024).</description>
+    </project>
+  </projects>
+
+  <awards>
+    <title lang="fr">Prix et Distinctions</title>
+    <title lang="en">Awards and Honors</title>
+    <title lang="ar">الجوائز والتكريمات</title>
+    <award lang="fr">1ère place - Enquêtes statistiques - Club CPGE (2023)</award>
+    <award lang="en">1st place - Statistical surveys - CPGE Club (2023)</award>
+    <award lang="ar">المرتبة الأولى - الاستطلاعات الإحصائية - نادي CPGE (2023)</award>
+    <award lang="fr">Participation distinguée - Concours Spelling Bee - Sorbonne Paris Nord (2024)</award>
+    <award lang="en">Honorable Mention - Spelling Bee Contest - Sorbonne Paris Nord (2024)</award>
+    <award lang="ar">تنويه مشرف - مسابقة تهجئة الكلمات - جامعة السوربون باريس نورد (2024)</award>
+  </awards>
+
+  <hobandint>
+    <title lang="fr">Hobbies et Intérêts</title>
+    <title lang="en">Hobbies and Interests</title>
+    <title lang="ar">الهوايات والاهتمامات</title>
+    <description lang="fr">Passionnée par les voyages culturels, la cuisine traditionnelle, le bénévolat, la natation, les jeux de logique et les activités de groupe.</description>
+    <description lang="en">Passionate about cultural travel, traditional cooking, volunteering, swimming, logic games and group activities.</description>
+    <description lang="ar">شغوفة بالسفر الثقافي، الطبخ التقليدي، العمل التطوعي، السباحة، ألعاب الذكاء والأنشطة الجماعية.</description>
+  </hobandint>
+</cv>

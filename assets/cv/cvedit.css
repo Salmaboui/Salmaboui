@@ -1,0 +1,14 @@
+.qualtype:hover, .qualcontent:hover, .qualestablishment:hover, .jobtitle:hover, .jobdescription:hover, .jobachievementlist:hover, .jobachievementitem:hover,
+.qualtype.clicked, .qualcontent.clicked, .qualestablishment.clicked, .jobtitle.clicked, .jobdescription.clicked, .jobachievementlist.clicked, .jobachievementitem.clicked {
+    background-color: pink;
+	transition: background-color 1s ease;
+    cursor: pointer; 
+}
+
+.qualtype.clicked:hover, .qualcontent.clicked:hover, .qualestablishment.clicked:hover, .jobtitle.clicked:hover, .jobdescription.clicked:hover, .jobachievementlist.clicked:hover, .jobachievementitem.clicked:hover {
+    background-color: pink;
+}
+
+@media print {
+    #printbutton { visibility:hidden; }
+}

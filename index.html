@@ -1,16 +1,370 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <title>Portfolio de Salma Bouirdi</title>
-</head>
-<body>
-    <h1>Portfolio de Salma Bouirdi</h1>
-    <p><strong>Nom :</strong> Bouirdi</p>
-    <p><strong>Prénom :</strong> Salma</p>
-    <p><strong>Formation :</strong> Cycle d'ingénieur informatique (apprentie) </p>
-    <p><strong>GitHub :</strong> 
-        <a href="https://github.com/Salmaboui" target="_blank">Salmaboui</a>
-    </p>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Portfolio Salma Bouirdi">
+    <meta name="author" content="Salma Bouirdi">
+    <title>Portfolio Salma Bouirdi</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
+    <!-- Bootstrap + Steller main styles -->
+    <link rel="stylesheet" href="assets/css/biblio.css">
+
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="body-home">
+
+    <!-- Page navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" data-spy="affix" data-offset-top="0">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="assets/imgs/logo.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto align-items-center">
+                    <li class="nav-item">
+                        <button class="btn btn-link nav-link" onclick="changeLanguage('en')">
+                            <span class="flag-icon flag-icon-gb" style="font-size: 24px;"></span>
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-link nav-link" onclick="changeLanguage('fr')">
+                            <span class="flag-icon flag-icon-fr" style="font-size: 24px;"></span>
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-link nav-link" onclick="changeLanguage('ar')">
+                            <span class="flag-icon flag-icon-sa" style="font-size: 24px;"></span>
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home" data-i18n="home">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about" data-i18n="about">À propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service" data-i18n="service">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills" data-i18n="skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects" data-i18n="projects">projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cv" data-i18n="cvabrev">cv</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" data-i18n="contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End of page navigation -->
+
+    <!-- Page Header -->
+    <header class="header" id="home">
+        <div class="container rtl-section">
+            <div class="infos">
+                <h6 class="subtitle" data-i18n="hello">Bonjour, je suis</h6>
+                <h6 class="title" data-i18n="name">Salma BOUIRDI</h6>
+                <p data-i18n="engineeringStudent">Étudiante en informatique & Apprentie Business Analyst /p>
+
+                <div class="buttons pt-3">
+                    <button class="btn btn-primary rounded" id="hireMeBtn" data-i18n="hireMe">EMBAUCHEZ-MOI</button>
+                    <button class="btn btn-secondary rounded" id="viewCvBtn" onclick="window.location='#cv'" data-i18n="voirCV">VOIR CV</button>
+                </div>
+
+                <div class="socials mt-4 rtl-exception">
+                    <a class="social-item" href="https://github.com/Salmaboui" target="_blank"><i class="ti-github"></i></a>
+                    <a class="social-item" href="https://www.linkedin.com/in/salma-bouirdi/" target="_blank"><i class="ti-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="img-holder rtl-exception">
+                <img src="assets/imgs/man.png" alt="woman">
+            </div>
+        </div>
+        
+    </header>
+    <!-- End of Page Header -->
+
+    <!-- About section -->
+    <section id="about" class="section mt-3">
+        <div class="container mt-5">
+            <div class="row text-center text-md-left">
+                <div class="col-md-3">
+                    <img src="assets/imgs/avatar.jpg" alt="avatar" class="img-thumbnail mb-4">
+                </div>
+                <div class="pl-md-4 col-md-9">
+                    <h6 class="title" data-i18n="name">Salma BOUIRDI</h6>
+                    <p class="subtitle" data-i18n="engineeringStudent">Étudiante en informatique & Apprentie Business Analyst</p>
+                    <p data-i18n="moreInfo">👨‍💻 Actuellement en deuxième année du cycle ingénieur en informatique à l'école d'ingénieur Sup-Galilée de l'Université Sorbonne Paris Nord, je me spécialise en tant qu'apprenti Software Engineer. Je travaille chez Société Générale dans le département Financement Structuré - Loan IQ au sein de l'équipe DevOps.</p>
+                    <button class="btn btn-primary rounded mt-3" id="viewCvBtn2" onclick="window.location='#cv'" data-i18n="voirCV">VOIR CV</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service section -->
+    <section id="service" class="section">
+        <div class="container text-center">
+            <h6 class="subtitle" data-i18n="service">Service</h6>
+            <h6 class="section-title mb-4" data-i18n="whatIDo">Ce que je fais</h6>
+            <p class="mb-5 pb-4" data-i18n="serviceDesc">Je pilote des projets de monitoring et d’outillage en collaboration avec les équipes techniques, en assurant la définition des besoins, la conception fonctionnelle et le suivi du développement pour optimiser les processus financiers.</p>
+
+            <div class="row">
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="icon ti-desktop"></i>
+                            <h5>pyhton</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="icon ti-layers-alt"></i>
+                            <h5>Dashboard</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="icon ti-server"></i>
+                            <h5>Oracle & PostgreSQL</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3 mb-4">
+                    <div class="custom-card card border">
+                        <div class="card-body">
+                            <i class="icon ti-dashboard"></i>
+                            <h5>REST API</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Service Section -->
+
+    <!-- Skills section -->
+    <section id="skills" class="section">
+        <div class="container text-center">
+            <h6 class="subtitle" data-i18n="skills">Compétences</h6>
+            <h6 class="section-title mb-4" data-i18n="whyChooseMe">Pourquoi me choisir</h6>
+            <p class="mb-5 pb-4" data-i18n="skillsDesc">Mon expérience et mon implication me permettent de proposer des solutions à la fois efficaces et fiables, adaptées à des environnements techniques variés.</p>
+
+            <div class="row text-left">
+                <div class="col-sm-6">
+                    <h6 class="mb-3">sql</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>89%</span></div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h6 class="mb-3">Dashboard</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>83%</span></div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h6 class="mb-3">Power bi</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 95%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>95%</span></div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h6 class="mb-3">Python</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
+                    </div>
+                </div>  
+                <div class="col-sm-6">
+                    <h6 class="mb-3">UML</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
+                    </div>
+                </div>  
+                <div class="col-sm-6">
+                    <h6 class="mb-3">Jira</h6>
+                    <div class="progress">
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><span>75%</span></div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </section>
+    <!-- End of Skills sections -->
+
+    <!-- Blog Section -->
+    <section id="projects" class="section">
+        <div class="container text-center">
+            <h6 class="subtitle" data-i18n="projectsTitle">Mes Projets</h6>
+            <h6 class="section-title mb-4" data-i18n="latestNews">Dernières nouvelles</h6>
+            <p class="mb-5 pb-4 rtl-section" data-i18n="projectsDesc">Voici les projets les plus pertinentes que j'ai pu réalisés.</p>
+
+            <div class="row text-left rtl-section">
+                <div class="col-md-4">
+                    <div class="card border mb-4">
+                        <img src="assets/imgs/projet-1.jpg" alt="projet-1" class="card-img-top w-100 rtl-exception">
+                        <div class="card-body">
+                            <h5 class="card-title" data-i18n="project1">Travail d'initiative personnelle encadré</h5>
+                            <div class="post-details">
+                                <a href="javascript:void(0)" data-i18n="school">Lycée Paul Valéry</a>
+                            </div>
+                            <p data-i18n="project1Desc">Réalisation d'un TIPE en groupe de 3 personnes sur la modélisation informatique de la propagation d'une épidémie à l'aide du modèle S.I.R en Python.</p>
+                            <a href="javascript:void(0)"> <i class="ti-github"></i> Lien vers GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border mb-4">
+                        <img src="assets/imgs/projet-2.jpg" alt="projet-2" class="card-img-top w-100 rtl-exception">
+                        <div class="card-body">
+                            <h5 class="card-title" data-i18n="project2">Simulation d’un écosystème proie/prédateur</h5>
+                            <div class="post-details">
+                                <a href="javascript:void(0)" data-i18n="institution">Sup Galilée</a>
+                            </div>
+                            <p data-i18n="project2Desc">Le but de ce projet en termes de programmation objet est de mettre en place un tel moteur de
+                                simulation en utilisant une modélisation objet des données et des algorithmes en langage JAVA.</p>
+                            <a href="javascript:void(0)"> <i class="ti-github"></i> Lien vers GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border mb-4">
+                        <img src="assets/imgs/projet-3.jpg" alt="projet-3.jpg" class="card-img-top w-100 rtl-exception">
+                        <div class="card-body">
+                            <h5 class="card-title" data-i18n="project3">Jeu Monster</h5>
+                            <div class="post-details">
+                                <a href="javascript:void(0)" data-i18n="institution">Sup Galilée</a>
+                            </div>
+                            <p data-i18n="project3Desc">Simulateur de la vie d’un pauvre monstre qui passe son temps à dormir, courir, combattre, travailler et se nourrir. L’internaute doit surveiller son état et lui faire faire des actions qui lui font gagner ou perdre des points de vie ou de l’argent afin de le maintenir en vie. Les technologies utilisées sont HTML, CSS, JavaScript et jQuery.</p>
+                            <a href="javascript:void(0)"> <i class="ti-github"></i> Lien vers GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border mb-4">
+                        <img src="assets/imgs/projet-5.jpg" alt="projet-5.jpg" class="card-img-top w-100 rtl-exception">
+                        <div class="card-body">
+                            <h5 class="card-title" data-i18n="project5">Modélisation en UML d'un réseau social basé sur la diffusion géographique d'images</h5>
+                            <div class="post-details">
+                                <a href="javascript:void(0)" data-i18n="institution">Sup Galilée</a>
+                            </div>
+                            <p data-i18n="project5Desc">J'ai réalisé un projet visant à modéliser un réseau social nommé Contagion, basé sur la diffusion géographique d'images. Ce réseau se distingue en permettant le partage d'images uniquement avec des personnes proches géographiquement. Ainsi, les images se propagent entre les abonnés situés dans la même zone. L'objectif est de simuler la diffusion d'une épidémie à travers la population via ces images. Pour ce faire, j'ai utilisé UML, ce qui m'a permis de renforcer mes compétences en modélisation et en conception de systèmes complexes.</p>
+                            <a href="javascript:void(0)"> <i class="ti-github"></i> Lien vers GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border mb-4">
+                        <img src="assets/imgs/projet-4.jpg" alt="projet-4.jpg" class="card-img-top w-100 rtl-exception">
+                        <div class="card-body">
+                            <h5 class="card-title" data-i18n="project4">Calculateur d'itinéraire pour le métro</h5>
+                            <div class="post-details">
+                                <a href="javascript:void(0)" data-i18n="institution">Sup Galilée</a>
+                            </div>
+                            <p data-i18n="project4Desc">Dans le cadre de ce projet, j'ai codé un algorithme permettant de trouver l'itinéraire le plus court reliant deux stations de métro données. J'ai travaillé sur la lecture de deux fichiers de données pour construire la structure de données nécessaire pour réaliser le calcul dewomandé. Ce projet a développé mes compétences en programmation et en résolution de problèmes algorithmiques</p>
+                            <a href="javascript:void(0)"> <i class="ti-github"></i> Lien vers GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border mb-4">
+                        <img src="assets/imgs/projet-6.jpg" alt="projet-6.jpg" class="card-img-top w-100 rtl-exception">
+                        <div class="card-body">
+                            <h5 class="card-title" data-i18n="project6">Site de Films</h5>
+                            <div class="post-details">
+                                <a href="javascript:void(0)" data-i18n="institution">Sup Galilée</a>
+                            </div>
+                            <p data-i18n="project6Desc"> Ce projet était en binome ,J’ai développé un site de films en intégrant l’API TMDB, avec un back-end construit sous Spring Boot et un front-end en React. Le back-end expose des endpoints RESTful pour interagir avec les données, tandis que le front-end utilise des composants React dynamiques pour afficher les films et leurs informations. Ce projet m’a permis de consolider mes compétences en développement full-stack.</p>
+                            <a href="javascript:void(0)"> <i class="ti-github"></i> Lien vers GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section video -->
+    <section id="video" class="section">
+        <div class="container text-center">
+            <h6 class="subtitle" data-i18n="videoTitle">Vidéo</h6>
+            <h6 class="section-title mb-4" data-i18n="videoSubTitle">Qu'est-ce que League of Legends?</h6>
+            <div class="video-container text-center">
+                <div id="player"></div>
+            </div>
+        </div>
+    </section>
+    <!-- fin de la section  Video -->
+    
+    <!-- CV Section -->
+    <section id="cv" class="section">
+        <div class="container text-center">
+            <h6 class="subtitle text-center" data-i18n="monCv">Mon CV en XML</h6>
+            <h6 class="section-title mb-4" data-i18n="cv">Curriculum Vitae</h6>
+            <div class="shadow-background">
+                <div class="cv-container" id="cv-container">
+                    <!-- CV content will be loaded here -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of CV Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="position-relative section">
+        <div class="container text-center">
+            <h6 class="subtitle" data-i18n="contactMe">Contact</h6>
+            <h6 class="section-title mb-4" data-i18n="contactMe">Contactez-moi</h6>
+
+            <div class="contact text-left rtl-section">
+                <div class="form">
+                    <form>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Entrez votre email" required data-i18n-placeholder="enterEmail">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="contact-message" id="contact-message" cols="30" rows="5" class="form-control" placeholder="Message" data-i18n-placeholder="message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block rounded w-lg" data-i18n="sendMessage">Envoyer ce message</button>
+                    </form>
+                </div>
+                <div class="contact-infos">
+                    <div class="item">
+                        <i class="ti-email"></i>
+                        <div class="mb-0">
+                            <h5 data-i18n="emailAddress">Adresse e-mail</h5>
+                            <p data-i18n="email">salmabouirdi931@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2619.78218179716!2d2.3373440772482574!3d48.95763327134552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66922b383ba41%3A0x9e91071846350ddb!2sSup%20Galil%C3%A9e!5e0!3m2!1sfr!2sfr!4v1719064357166!5m2!1sfr!2sfr" ></iframe>
+        </div>
+    </section>
+    <!-- End of Contact Section -->
+
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- js -->
+    <script src="assets/js/portfolio.js"></script>
+    <script src="assets/js/translations.js"></script>
+    <script src="assets/cv/cv.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
 </body>
 </html>
