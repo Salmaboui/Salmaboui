@@ -44,10 +44,11 @@ const translations = {
         project4: "E-commerce Shop",
         project4Desc:
             "Created and managed my own online store, handling marketing, customer care and logistics (2021-2022).",
-        project5: "—",          /* keep empty if unused */
-        project5Desc: "",
-        project6: "—",
-        project6Desc: "",
+        project5: "Geolocated Social Network",
+        project5Desc: "I designed a social network called Contagion, where image sharing is restricted to nearby users. The goal was to simulate epidemic-like propagation. It improved my UML and systems modeling skills.",
+        project6: "Movie Site with TMDB API",
+        project6Desc: "Team project: developed a movie site with Spring Boot back-end and React front-end. Integrated TMDB API and built dynamic UI components. Strengthened my full-stack development experience.",
+
 
         /* --- Awards section (NEW) --- */
         awardsTitle: "Awards & Honors",
@@ -118,10 +119,11 @@ const translations = {
         project4: "متجر إلكتروني",
         project4Desc:
             "إنشاء وإدارة متجر إلكتروني خاص، يشمل التسويق وخدمة العملاء واللوجستيات (2021-2022).",
-        project5: "—",
-        project5Desc: "",
-        project6: "—",
-        project6Desc: "",
+        project5: "شبكة اجتماعية جغرافية",
+        project5Desc: "قمت بنمذجة شبكة اجتماعية تُدعى Contagion، تعتمد على مشاركة الصور فقط بين المستخدمين القريبين جغرافيًا لمحاكاة انتشار وباء. هذا المشروع عزز مهاراتي في UML وتصميم الأنظمة.",
+        project6: "موقع أفلام باستخدام TMDB API",
+        project6Desc: "مشروع جماعي: تطوير موقع أفلام باستخدام Spring Boot (خلفية) وReact (واجهة). دمج واجهة TMDB البرمجية وتصميم واجهة ديناميكية. تجربة قوية في تطوير full-stack.",
+
 
         awardsTitle: "الجوائز والتكريمات",
         awardsDesc: "بعض الجوائز والتكريمات التي حصلت عليها خلال مسيرتي.",
@@ -189,10 +191,11 @@ const translations = {
         project4: "Boutique en ligne",
         project4Desc:
             "Création et gestion d’un e-shop : marketing, relation client, logistique (2021-2022).",
-        project5: "—",
-        project5Desc: "",
-        project6: "—",
-        project6Desc: "",
+        project5: "Réseau social géolocalisé",
+        project5Desc: "J'ai modélisé un réseau social, nommé Contagion, basé sur la diffusion géographique d’images entre abonnés proches. Cela m’a permis de renforcer mes compétences en UML et conception de systèmes complexes.",
+        project6: "Site de films avec API TMDB",
+        project6Desc: "Développement en binôme d’un site de films. Back-end en Spring Boot, front-end React. Intégration de l’API TMDB, affichage dynamique avec composants React. Projet full-stack enrichissant.",
+
 
         awardsTitle: "Prix & Distinctions",
         awardsDesc:
